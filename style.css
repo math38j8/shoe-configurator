@@ -1,0 +1,63 @@
+#shadow_Image {
+  pointer-events: none;
+}
+
+.color-selector {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  color: rgb(250, 178, 212);
+}
+
+body {
+  background-color: rgb(15 42 82);
+}
+
+.color-selector {
+  cursor: grab;
+}
+g {
+  cursor: url(assets/cursor.png), auto;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+
+section {
+  display: grid;
+  justify-content: center;
+}
+
+svg {
+  width: 65vw;
+  margin-bottom: 1vw;
+}
+
+#laces:hover,
+#tip:hover,
+#nike:hover,
+#top-middle:hover,
+#sole:hover,
+#back-top:hover,
+#front:hover,
+#front-top:hover,
+#back-nike:hover,
+#middle-nike:hover {
+  opacity: 80%;
+}
+
+p {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+
+  color: rgb(255, 227, 251);
+}
